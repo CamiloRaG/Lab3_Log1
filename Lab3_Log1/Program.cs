@@ -18,7 +18,15 @@ namespace Lab3_Log1
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
 
-            Console.WriteLine("Ingrese");
+            Console.Write("Ingrese su nombre");
+            String nombre = Console.ReadLine();
+            Console.Write("Ingrese su direccion de correo electronico");
+            String correo = Console.ReadLine();
+            Console.Write("Ingrese lo que desea de endulzada");
+            String endulzadaIdeal = Console.ReadLine();
+            Console.Write("Ingrese lo que desea de regalo");
+            String regaloIdeal = Console.ReadLine();
+
         }
     }
 }
