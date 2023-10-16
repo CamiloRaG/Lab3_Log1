@@ -20,7 +20,7 @@ namespace Lab3_Log1
             this.correo = correo;
             this.endulzadaIdeal = endulzadaIdeal;
             this.regaloIdeal = regaloIdeal;
-            this.amigoSecreto = amigoSecreto;
+
         }
     }
 
